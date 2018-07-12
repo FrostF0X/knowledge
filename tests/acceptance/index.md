@@ -14,3 +14,10 @@ step by step specification of user stories and business rules.
 * Definition of done - test suites are explicit definition for developer when feature is ready. 
 It is ready when all tests passes.  
 
+## User stories
+User stories has to be created by business analytics, testers, and business.
+This user stories become **Given-Then-When** tests.
+Implementation of test is filled by programmers and testers.
+Finally programmers implement functionality according to this tests.
+
+Good user stories are **testable**
