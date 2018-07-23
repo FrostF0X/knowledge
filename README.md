@@ -1,2 +1,5 @@
-# knowledge
-All knowledge about programming gathered by me
+# Software compendium
+
+Short compendium of software practices and topics gathered to achieve quick reliable software developing and 
+delivering  
+
