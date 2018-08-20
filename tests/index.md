@@ -19,3 +19,11 @@ Exploratory test - may give you additional information about which tests or even
 Exploratory tests are executed manually by testing with intention to understand if system is suitable for users needs.
 Also give feedback about if there are some unpredicted bugs. After gathering this info you can write automated test 
 to be sure bug will never occur again. Also by analysing user point of view you can undestand what features are missed.
+
+## Practices
+
+There two types of creating test: 
+* tests that are written after feature implementation **test-last**
+* tests that are written before feature implementation **test-first**
+
+For description and comparison of this techniques look further [here](TDD/index.md)

@@ -1,9 +1,20 @@
 # Integration tests
 
-Designed to ensure that integration of different pieces of software (classes, components, services) works as expected
-
+Test can be considered as integration if it has no full control over [unit of work](../terminology.md#unit-of-work) 
+they are executed against. This tests often include UI, databases, external API, dependencies on Time and so on.
+Designed to ensure that integration of different pieces of software (classes, components, services) works as expected.
+Have less logical coverage then unit tests, but are very helpful to ensure product 
+[external quality](../terminology.md#external-quality). 
+  
+### Characteristics
+* Have one or more **real** dependencies
+* Are inconsistent - can provide different unexpected result depending on integration points state
+* Don't have full control over unit of work
+* Often slow at executing or require long startup time
+* Unlocalized - tests many things at once
+* Smaller logic coverage
+  
 ## Doubles
-
 Sometimes in component or system tests points of integrations are replaced with test doubles (mocks or fakes)
 It is great to have 2 kinds of test in your warehouse to be able to understand if but emerges from integration or 
 local broken logic.  

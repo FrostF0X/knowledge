@@ -22,5 +22,4 @@ Basically there are two types of tests from client point of view:
 * **Integration** - tests application components in collaboration to ensure they fit together
 * **Component** - tests single system component in isolation to ensure it nested elements fit together
 * **Capacity** - tests maximum load system can handle in production like environment
-* **Security** - tests security hole 
-
+* **Security** - tests security hole

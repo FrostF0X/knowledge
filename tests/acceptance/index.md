@@ -1,7 +1,10 @@
 # Acceptance tests
 
 Kind of ETE tests that check business requirements and processes, must be automated, because of enormous 
-costs and duration associated with manual testing.  
+costs and duration associated with manual testing.
+
+Don't miss acceptance with integration tests. This terms has serves for different purpose. You can write either 
+acceptance unit and acceptance integration test.   
 
 ## Benefits
 
