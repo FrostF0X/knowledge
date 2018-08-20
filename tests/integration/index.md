@@ -1,4 +1,4 @@
-# Integration tests
+### Integration tests
 
 Test can be considered as integration if it has no full control over [unit of work](../terminology.md#unit-of-work) 
 they are executed against. This tests often include UI, databases, external API, dependencies on Time and so on.

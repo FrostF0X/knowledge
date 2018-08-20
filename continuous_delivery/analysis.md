@@ -1,4 +1,4 @@
-# Process pipeline
+### Process pipeline
 is sketch of all stages of development process beginning from idea to end user delivery
 
 ![process pipeline](process-pipeline.jpeg)

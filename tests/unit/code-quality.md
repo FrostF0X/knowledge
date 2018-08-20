@@ -1,4 +1,4 @@
-# Impact on code quality
+### Impact on code quality
 This qualities emerge only from **well** written test code
 
 * Clarify object dependencies

@@ -1,4 +1,4 @@
-# Continuous delivery
+### Continuous delivery
 is set of practices purposed to achieve fast and reliable software delivery which includes:
 
 * Continuous integration

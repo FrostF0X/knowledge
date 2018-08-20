@@ -1,4 +1,4 @@
-# Commit stage
+### Commit stage
 is the first gate that compiles artifacts for subsequent stages and also ensures system technical quality.
 
 ##### Commit stage may include

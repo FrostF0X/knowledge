@@ -1,4 +1,4 @@
-# Automated tests
+### Automated tests
 
 Software is flexible as customers business, so we frequently change existing functionality, and this changes are 
 **unpredictable** to whole service behavior. 

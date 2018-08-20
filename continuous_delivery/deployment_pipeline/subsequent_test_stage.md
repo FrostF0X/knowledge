@@ -1,4 +1,4 @@
-# Subsequent test stage
+### Subsequent test stage
 By subsequent test stage we meant 2 right quadrants of test types: 
 * Exploratory testing
 * Nonfunctional requirements testing 

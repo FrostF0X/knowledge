@@ -1,4 +1,4 @@
-# Automated test stage
+### Automated test stage
 It is automated functional tests stage which is more business facing than commit stage and check system basic business 
 logic requirements.
 

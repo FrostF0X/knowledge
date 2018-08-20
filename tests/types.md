@@ -1,4 +1,4 @@
-# Types
+### Types
 
 Basically there are two types of tests from client point of view:
 

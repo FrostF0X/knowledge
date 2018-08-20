@@ -1,4 +1,4 @@
-# Deployment pipeline
+### Deployment pipeline
 is automated manifest for getting software from VCS to end uses
 
 ## Common signs of absence
@@ -26,7 +26,7 @@ From this diagram you can point out that every next stage:
 * environment of test becomes more production like
 * Feedback loop grows
 
-# Best practises of deployment pipeline
+### Best practises of deployment pipeline
 
 That's like common pipeline flow looks like:
 

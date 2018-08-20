@@ -1,4 +1,4 @@
-# Acceptance tests
+### Acceptance tests
 
 Kind of ETE tests that check business requirements and processes, must be automated, because of enormous 
 costs and duration associated with manual testing.

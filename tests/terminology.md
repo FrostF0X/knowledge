@@ -1,4 +1,4 @@
-# Terminology
+### Terminology
  
 * <a id="sut">SUT (system under test)</a> - system which specific tests are executed against
 * <a id="cut">CUT (code under test)</a> - piece of code which specific test are executed against

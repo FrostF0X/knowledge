@@ -1,4 +1,4 @@
-# Object Oriented Programming
+### Object Oriented Programming
 
 Object oriented programming is about objects and communication between them. Have such main concepts as classes, 
 class members, class method. Class is may be considered as template for object.

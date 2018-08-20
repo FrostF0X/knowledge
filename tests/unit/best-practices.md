@@ -1,4 +1,4 @@
-# Best practices
+### Best practices
 This document covers best practices of writing good unit tests. 
 One of cornerstone of good unit tests is rule: Write tests you want to read.
 And to understand how to write good unit tests we have to understand what is good unit test:
