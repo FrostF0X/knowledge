@@ -13,3 +13,4 @@ Some best practices:
 * when interface is designed well - does one thing is is easy to find something specific in implementation
 * when naming with this pattern you begin to operate over implementation and interfaces don't means anything to your 
 design
+* naming with postfix removes ability to apply **ISP**

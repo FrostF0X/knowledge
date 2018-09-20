@@ -41,19 +41,39 @@ Implementation is implementation of that abstraction.
   
 ### Interfaces
 
-Don't use mocks to mock concrete classes, if you have desire to mock something then probably we have one of 2 cases:
+Don't create mocks of concrete classes, if you have desire to mock something then probably we have one of 2 cases:
 * It is heavy weight object that is hard to create
-* It is object which you have no full control over which is probably belongs to IO or infrastructure layer
+* It is object which you have no full control over which is probably belongs to IO or infrastructure layer 
+(see bindings)
 
 To clarify concepts and for better architecture it is better to create interface.
 
 ### Bindings
 
 Don't mock third-party code (code that you own) because, it means that your application depends and highly coupled to
-code that cannot be changed. Create wrapper around binding and mock it instead. 
+code that cannot be changed. It's like depending on contract that you have no control over and that can be updated at
+any moment. Create wrapper around binding and mock it instead. 
+
+### Set up
+
+If it is hard to set up test dependency that it is probably hard to use in production code, maybe it has dependency on 
+something heavyweight or coupled to lower layers. If your test have indicated this situation then it's time to think 
+about architecture, maybe about adding layer of indirection to some dependency or ISP. Another awkward consequence is
+bloated constructor, however we know how to deal with it :)
+
+### Expectations
+
+Generally there should be single expectation per test - every expectation belongs to single feature, this features 
+should be tested separately. If you have more than 1 expectation then:
+* You wrote test with **overspecification**
+* You testing two concerns in single test  
+
+For object state test assert equality with expected object rather that adding multiple asserts - it will clarify what
+you are expecting as end result of your test. 
 
 ### Notes
 
 Don't mock return values with no logic like DTO and entities.
+
    
   
